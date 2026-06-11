@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Portrait placeholder</title>
+  <desc id="desc">A light blue placeholder for Enno Breukelman's portrait.</desc>
+  <rect width="800" height="1000" fill="#dff3ff"/>
+  <path d="M0 140h800M0 280h800M0 420h800M0 560h800M0 700h800M0 840h800M160 0v1000M320 0v1000M480 0v1000M640 0v1000" stroke="#9fd5f2" stroke-width="2"/>
+  <circle cx="400" cy="340" r="116" fill="#5bb7e8"/>
+  <path d="M194 780c28-148 110-222 206-222s178 74 206 222" fill="#0066a6"/>
+  <text x="400" y="900" text-anchor="middle" fill="#0066a6" font-family="Arial, sans-serif" font-size="34" font-weight="700">Add profile.jpg</text>
+</svg>

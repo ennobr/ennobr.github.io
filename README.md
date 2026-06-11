@@ -13,3 +13,12 @@ https://ennobr.github.io
 - Selected publications
 - Google Scholar profile link
 - Optional CV or contact links
+
+## Editing notes
+
+- Add a portrait at `assets/images/profile.jpg`.
+- Edit news items directly in `index.html`.
+- Edit publications in `data/publications.json`.
+- The publication section links to Google Scholar, but renders from local data
+  because Google Scholar does not support reliable browser-side syncing from a
+  static GitHub Pages site.
