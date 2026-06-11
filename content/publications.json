@@ -1,17 +1,17 @@
 [
   {
-    "title": "Carbon-Aware Computing in a Network of Data Centers: A Hierarchical Game-Theoretic Approach",
-    "authors": "E Breukelman, S Hall, G Belgioioso, F Dorfler",
-    "venue": "arXiv preprint arXiv:2405.18070",
-    "year": "2024",
-    "url": "https://arxiv.org/abs/2405.18070"
-  },
-  {
     "title": "Data-Driven Unknown Input Reconstruction for MIMO Systems with Convergence Guarantees",
     "authors": "E Breukelman, T Shinohara, J Lee, H Sandberg",
     "venue": "arXiv preprint arXiv:2604.08018",
     "year": "2026",
     "url": "https://arxiv.org/abs/2604.08018"
+  },
+  {
+    "title": "Carbon-Aware Computing in a Network of Data Centers: A Hierarchical Game-Theoretic Approach",
+    "authors": "E Breukelman, S Hall, G Belgioioso, F Dorfler",
+    "venue": "arXiv preprint arXiv:2405.18070",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2405.18070"
   },
   {
     "title": "Unknown Input Observers Breaking Confidentiality of Controller States",

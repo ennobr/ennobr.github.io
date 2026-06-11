@@ -1,0 +1,14 @@
+{
+  "links": [
+    {
+      "label": "cebre@kth.se",
+      "url": "mailto:cebre@kth.se",
+      "style": "primary"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/enno-breukelman/",
+      "style": "secondary"
+    }
+  ]
+}

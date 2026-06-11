@@ -14,8 +14,8 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=20260611b" />
-    <script src="scripts/publications.js?v=20260611b" defer></script>
+    <link rel="stylesheet" href="styles.css?v=20260611c" />
+    <script src="scripts/site-content.js?v=20260611c" defer></script>
   </head>
   <body>
     <main class="page-shell">
@@ -32,58 +32,22 @@
 
       <section id="about" class="hero" aria-labelledby="intro-title">
         <div class="hero-copy">
-          <p class="role">
-            Doctoral student,
-            <a href="https://www.kth.se/en">KTH Royal Institute of Technology</a>
-          </p>
-          <h1 id="intro-title">Enno Breukelman</h1>
-          <div class="bio">
-            <p>Hej!</p>
-            <p>
-              I am a PhD student working on security for cyber-physical systems
-              (CPS) since late 2023. My current research is focused on
-              confidentiality attacks in networked control systems. For that, I
-              am investigating multiple tools, such as Kalman filtering or
-              delayed system inversion, to assess the privacy of internal states
-              in time-discrete systems. Future research will investigate machine
-              learning models in the controller. I am also interested in all
-              sorts of control &amp; optimization problems.
-            </p>
-            <p>
-              Previously, I completed the automation engineering M.Sc. program
-              at RWTH Aachen in Germany in 2023 while writing my master's thesis
-              on carbon-aware compute job allocation at the Automatic Control
-              Laboratory at ETH Zurich.
-            </p>
-            <p>
-              My main supervisor is
-              <a href="https://www.kth.se/profile/hsan">Henrik Sandberg</a>,
-              and my co-supervisor is
-              <a href="https://www.kth.se/profile/kallej">Karl Henrik Johansson</a>.
-              I am part of the Wallenberg AI, Autonomous Systems and Software
-              Program (<a href="https://wasp-sweden.org/">WASP</a>) program.
-            </p>
-          </div>
-          <div class="hero-actions" aria-label="Profile links">
-            <a
-              class="button primary"
-              href="https://scholar.google.com/citations?hl=en&amp;user=byz1x3cAAAAJ"
-              rel="noreferrer"
-            >
-              Google Scholar
-            </a>
-            <a class="button secondary" href="https://www.kth.se/profile/cebre?l=en">
-              KTH profile
-            </a>
-          </div>
+          <p id="profile-role" class="role"></p>
+          <h1 id="profile-name">Enno Breukelman</h1>
+          <div id="profile-bio" class="bio"></div>
+          <div
+            id="profile-links"
+            class="hero-actions"
+            aria-label="Profile links"
+          ></div>
         </div>
         <figure class="portrait-card">
           <img
-            src="assets/images/profile_picture_EB.jpg"
+            id="profile-portrait"
+            src="assets/images/profile-placeholder.svg"
             alt="Portrait of Enno Breukelman"
-            onerror="this.onerror=null; this.src='assets/images/profile-placeholder.svg';"
           />
-          <figcaption>Decision &amp; Control Systems</figcaption>
+          <figcaption id="profile-caption"></figcaption>
         </figure>
       </section>
 
@@ -92,26 +56,7 @@
           <p class="section-kicker">News</p>
           <h2>Recent updates</h2>
         </div>
-        <ol class="news-list">
-          <li>
-            <time datetime="2026-04-09">2026-04-09</time>
-            <span>
-              Preprint posted: Data-Driven Unknown Input Reconstruction for
-              MIMO Systems with Convergence Guarantees.
-            </span>
-          </li>
-          <li>
-            <time datetime="2024-05-28">2024-05-28</time>
-            <span>
-              Preprint posted: Carbon-Aware Computing in a Network of Data
-              Centers.
-            </span>
-          </li>
-          <li>
-            <time datetime="2023-11-01">2023-11</time>
-            <span>Started doctoral studies at KTH.</span>
-          </li>
-        </ol>
+        <ol id="news-list" class="news-list"></ol>
       </section>
 
       <section id="projects" class="section split-section">
@@ -119,32 +64,7 @@
           <p class="section-kicker">Projects</p>
           <h2>Current work</h2>
         </div>
-        <div class="card-grid">
-          <article class="info-card">
-            <span>01</span>
-            <h3>Confidentiality in networked control</h3>
-            <p>
-              Studying attacks and observers that reveal internal controller
-              states in cyber-physical systems.
-            </p>
-          </article>
-          <article class="info-card">
-            <span>02</span>
-            <h3>Data-driven system inversion</h3>
-            <p>
-              Reconstructing unknown inputs for MIMO systems with convergence
-              and stability guarantees.
-            </p>
-          </article>
-          <article class="info-card">
-            <span>03</span>
-            <h3>Control and optimization</h3>
-            <p>
-              Exploring optimization problems in engineered systems, including
-              carbon-aware compute allocation.
-            </p>
-          </article>
-        </div>
+        <div id="project-list" class="card-grid"></div>
       </section>
 
       <section id="publications" class="section publications">
@@ -161,42 +81,20 @@
             View all on Google Scholar
           </a>
         </div>
-        <div id="publication-list" class="publication-list" aria-live="polite">
-          <article class="publication">
-            <div>
-              <h3>Carbon-Aware Computing in a Network of Data Centers</h3>
-              <p>E Breukelman, S Hall, G Belgioioso, F Dorfler</p>
-            </div>
-            <span>2024</span>
-          </article>
-          <article class="publication">
-            <div>
-              <h3>
-                Data-Driven Unknown Input Reconstruction for MIMO Systems with
-                Convergence Guarantees
-              </h3>
-              <p>E Breukelman, T Shinohara, J Lee, H Sandberg</p>
-            </div>
-            <span>2026</span>
-          </article>
-        </div>
+        <div id="publication-list" class="publication-list" aria-live="polite"></div>
       </section>
 
       <section id="contact" class="section contact-band">
         <div>
           <p class="section-kicker">Contact</p>
           <h2>Get in touch</h2>
+          <div class="sport-icons" aria-label="Cycling, swimming, and running">
+            <span class="sport-icon bike" role="img" aria-label="Cycling"></span>
+            <span class="sport-icon swim" role="img" aria-label="Swimming"></span>
+            <span class="sport-icon run" role="img" aria-label="Running"></span>
+          </div>
         </div>
-        <div class="contact-links">
-          <a class="button primary" href="mailto:cebre@kth.se">cebre@kth.se</a>
-          <a
-            class="button secondary"
-            href="https://www.linkedin.com/in/enno-breukelman/"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-        </div>
+        <div id="contact-links" class="contact-links"></div>
       </section>
     </main>
   </body>

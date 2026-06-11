@@ -1,0 +1,17 @@
+[
+  {
+    "number": "01",
+    "title": "Confidentiality in networked control",
+    "text": "Studying spying attacks that reveal internal controller states and reference in cyber-physical control loops. Primarily model-based, but shifting towards data-driven representations"
+  },
+  {
+    "number": "02",
+    "title": "Data-driven system inversion",
+    "text": "Reconstructing unknown inputs for MIMO systems with convergence and stability guarantees."
+  },
+  {
+    "number": "03",
+    "title": "Non-causal inversion",
+    "text": "Approximating the inverse by extended the preview window when non-minimum-phase zeros exists. A bit like stable-inversion."
+  }
+]
