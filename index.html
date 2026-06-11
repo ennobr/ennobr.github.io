@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Personal research website of Enno Breukelman."
+      content="Personal research website of Enno Breukelman, control systems engineer."
     />
     <title>Enno Breukelman</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,40 +30,44 @@
 
       <section class="hero" aria-labelledby="intro-title">
         <div class="hero-copy">
-          <p class="eyebrow">Research and engineering notes</p>
-          <h1 id="intro-title">Personal website of Enno Breukelman.</h1>
+          <p class="eyebrow">Control systems engineer</p>
+          <h1 id="intro-title">Designing systems that behave with purpose.</h1>
           <p class="lede">
-            A place for research summaries, current projects, selected work, and
-            useful links outside the university web stack.
+            I work on modeling, control, and verification for dynamic systems,
+            with a focus on ideas that move cleanly between theory, simulation,
+            and engineered behavior.
           </p>
           <div class="hero-actions" aria-label="Profile links">
-            <a class="button primary" href="#research">Read research summary</a>
-            <a class="button secondary" href="#publications">View publications</a>
+            <a class="button primary" href="#research">Research summary</a>
+            <a class="button secondary" href="#projects">Current work</a>
           </div>
         </div>
-        <div class="signal-panel" aria-label="Research focus snapshot">
-          <div>
-            <span class="panel-label">Focus</span>
-            <strong>Research summaries</strong>
+        <div class="loop-panel" aria-label="Control loop diagram">
+          <div class="loop-row">
+            <span class="signal">r(t)</span>
+            <span class="line"></span>
+            <span class="block">C(s)</span>
+            <span class="line"></span>
+            <span class="block plant">G(s)</span>
+            <span class="line"></span>
+            <span class="signal">y(t)</span>
           </div>
-          <div>
-            <span class="panel-label">Work</span>
-            <strong>Projects and experiments</strong>
-          </div>
-          <div>
-            <span class="panel-label">Links</span>
-            <strong>Google Scholar and profiles</strong>
+          <div class="feedback-line" aria-hidden="true"></div>
+          <div class="loop-caption">
+            <span>feedback</span>
+            <strong>models, controllers, stability, robustness</strong>
           </div>
         </div>
       </section>
 
       <section id="research" class="section">
         <p class="section-kicker">Research</p>
-        <h2>Research summary</h2>
+        <h2>Control, modeling, and reliable dynamic behavior.</h2>
         <p>
           This section will summarize the main questions, methods, and themes of
-          my research in clear language. It can link out to papers, code,
-          datasets, and selected project pages.
+          my research in clear language. It will connect the mathematical side
+          of control systems with the practical engineering questions behind
+          real dynamic systems.
         </p>
       </section>
 
@@ -75,13 +79,19 @@
         <div class="project-grid">
           <article>
             <span>01</span>
-            <h3>Current research project</h3>
-            <p>Add a short project description, core idea, and useful links.</p>
+            <h3>Control-oriented research</h3>
+            <p>
+              Add a short description of the core problem, the system model, and
+              the control ideas behind the work.
+            </p>
           </article>
           <article>
             <span>02</span>
-            <h3>Code and experiments</h3>
-            <p>Highlight GitHub repositories, demos, or technical notes.</p>
+            <h3>Simulation and experiments</h3>
+            <p>
+              Highlight code, numerical experiments, repositories, or notes that
+              make the research reproducible.
+            </p>
           </article>
         </div>
       </section>
@@ -91,8 +101,8 @@
         <h2>Selected publications</h2>
         <p>
           Add selected papers here, or connect this section to a maintained
-          publication list. The Google Scholar profile link can go here once the
-          profile URL is available.
+          publication list. The Google Scholar profile link will go here once
+          the profile URL is available.
         </p>
         <a class="text-link" href="https://scholar.google.com/" rel="noreferrer">
           Google Scholar
@@ -104,8 +114,8 @@
           <p class="section-kicker">Contact</p>
           <h2>Get in touch</h2>
         </div>
-        <a class="button primary" href="mailto:enno.breukelman@rwth-aachen.de">
-          enno.breukelman@rwth-aachen.de
+        <a class="button primary" href="mailto:cebre@kth.se">
+          cebre@kth.se
         </a>
       </section>
     </main>
