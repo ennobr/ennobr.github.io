@@ -1,10 +1,9 @@
 # Images
 
-Place your portrait in this folder as:
+The homepage uses this portrait file:
 
 ```text
-profile.jpg
+profile_picture_EB.jpg
 ```
 
-The homepage will use `profile.jpg` automatically. Until that file exists, it
-falls back to `profile-placeholder.svg`.
+If that file is missing, it falls back to `profile-placeholder.svg`.
