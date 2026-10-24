@@ -12,6 +12,6 @@
   {
     "number": "03",
     "title": "Non-causal inversion",
-    "text": "Approximating the inverse by extended the preview window when non-minimum-phase zeros exists. A bit like stable-inversion."
+    "text": "Approximating the inverse by extending the preview window when non-minimum-phase zeros exist. A bit like stable-inversion."
   }
 ]

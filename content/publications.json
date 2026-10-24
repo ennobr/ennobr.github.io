@@ -2,9 +2,16 @@
   {
     "title": "Data-Driven Unknown Input Reconstruction for MIMO Systems with Convergence Guarantees",
     "authors": "E Breukelman, T Shinohara, J Lee, H Sandberg",
-    "venue": "arXiv preprint arXiv:2604.08018",
+    "venue": "2026 IEEE Conference on Decision and Control (CDC), accepted",
     "year": "2026",
     "url": "https://arxiv.org/abs/2604.08018"
+  },
+  {
+    "title": "Optimal Joint State and Unknown Input Estimation for Linear Systems",
+    "authors": "E Breukelman, H Sandberg",
+    "venue": "IFAC World Congress",
+    "year": "2026",
+    "url": "https://scholar.google.com/citations?hl=en&user=byz1x3cAAAAJ"
   },
   {
     "title": "Carbon-Aware Computing in a Network of Data Centers: A Hierarchical Game-Theoretic Approach",

@@ -4,9 +4,9 @@
   "bio": [
     "Hej!",
     "I am a PhD student working on security for cyber-physical systems (CPS) since late 2023. My current research is focused on confidentiality attacks in networked control systems and data-driven inversion of LTI systems. For that, I am investigating multiple tools, such as Kalman filtering or delayed system inversion, to assess the privacy of internal states in time-discrete systems. For the data-driven inversion, I am employing tools like Willems' fundamental lemma and try to understand its implications on CPS security. I am also interested in all sorts of control &amp; optimization problems.",
-    "Recently, I have been collaborating with my brilliant colleagues <a href=\"https://www.kth.se/profile/tashin\">Takumi Shinohara</a> and <a href=\"https://www.kth.se/profile/joowon\">Joowon Lee</a>.",
+    "Recently, I have been collaborating with my brilliant colleagues <a href=\"https://www.kth.se/profile/tashin\">Takumi Shinohara</a>, <a href=\"https://www.kth.se/profile/joowon\">Joowon Lee</a>, and <a href=\"https://ariskane.github.io\">Aris Kanellopoulos</a>.",
     "Previously, I completed the automation engineering M.Sc. program at RWTH Aachen in Germany in 2023 while writing my master's thesis on carbon-aware compute job allocation at the Automatic Control Laboratory at ETH Zurich.",
-    "My main supervisor is <a href=\"https://www.kth.se/profile/hsan\">Henrik Sandberg</a>, and my co-supervisor is <a href=\"https://www.kth.se/profile/kallej\">Karl Henrik Johansson</a>. I am part of the Wallenberg AI, Autonomous Systems and Software Program (<a href=\"https://wasp-sweden.org/\">WASP</a>) program."
+    "My main supervisor is <a href=\"https://www.kth.se/profile/hsan\">Henrik Sandberg</a>, and my co-supervisor is <a href=\"https://www.kth.se/profile/kallej\">Karl Henrik Johansson</a>. I am part of the Wallenberg AI, Autonomous Systems and Software Program (<a href=\"https://wasp-sweden.org/\">WASP</a>) program. I am also a teaching assistant for the Nonlinear Control course at KTH, where I give exercise sessions and, in Fall 2026, a lecture."
   ],
   "links": [
     {

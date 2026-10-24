@@ -213,6 +213,17 @@ h1 {
   gap: 42px;
 }
 
+.news-scroll {
+  max-height: 520px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 0 8px 36px 0;
+  scrollbar-color: var(--accent) transparent;
+  scrollbar-width: thin;
+  -webkit-mask-image: linear-gradient(#000 calc(100% - 48px), transparent);
+  mask-image: linear-gradient(#000 calc(100% - 48px), transparent);
+}
+
 .news-list {
   display: grid;
   gap: 18px;
@@ -497,6 +508,10 @@ h1 {
 
   .section-heading {
     grid-template-columns: 1fr;
+  }
+
+  .news-scroll {
+    max-height: 460px;
   }
 
   .news-list {

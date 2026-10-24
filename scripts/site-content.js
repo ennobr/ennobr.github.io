@@ -73,7 +73,8 @@ function renderNews(items) {
 
       time.dateTime = item.date;
       time.textContent = item.label || item.date;
-      text.innerHTML = item.text;
+      // Bold the headline before the first colon, e.g. "Paper accepted:"
+      text.innerHTML = item.text.replace(/^([^:<]+:)/, "<strong>$1</strong>");
 
       entry.append(time, text);
       return entry;
