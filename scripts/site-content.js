@@ -123,10 +123,14 @@ function renderPublications(publications) {
       const year = document.createElement("span");
 
       article.className = "publication";
-      titleLink.href = publication.url;
-      titleLink.rel = "noreferrer";
-      titleLink.textContent = publication.title;
-      title.append(titleLink);
+      if (publication.url) {
+        titleLink.href = publication.url;
+        titleLink.rel = "noreferrer";
+        titleLink.textContent = publication.title;
+        title.append(titleLink);
+      } else {
+        title.textContent = publication.title;
+      }
 
       authors.textContent = publication.authors;
       venue.className = "venue";
